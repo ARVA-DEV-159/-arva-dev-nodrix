@@ -7,6 +7,9 @@ Instalación
 npm i @arva-dev/nodrix
 ```
 
+documentación completa:
+https://arva-dev-159.github.io/-arva-dev-nodrix/
+
 ## Funciones básicas
 ```javascript
 const { printPrettyMatrix, zeros } = require("@arva-dev/nodrix");
