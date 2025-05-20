@@ -6,7 +6,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "doc": "typedoc src/index.ts"
+    "doc": "typedoc src/index.ts",
+    "publish": "npm version patch && npm publish"
   },
   "repository": {
     "type": "git",
