@@ -7,3 +7,16 @@ Instalación
 npm i @arva-dev/nodrix
 ```
 
+## Funciones básicas
+```javascript
+const { printPrettyMatrix, zeros } = require("@arva-dev/nodrix");
+const matrix = zeros(10, 10);
+printPrettyMatrix(matrix);
+```
+```bash
+[ 0  0  0  0  0 ]
+[ 0  0  0  0  0 ]
+[ 0  0  0  0  0 ]
+[ 0  0  0  0  0 ]
+[ 0  0  0  0  0 ]
+```
