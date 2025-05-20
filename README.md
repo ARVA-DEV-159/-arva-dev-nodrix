@@ -1,0 +1,1 @@
+## Guia basica para usar NODRIX
