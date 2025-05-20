@@ -1,5 +1,12 @@
 import { Matrix, Array } from "../types/matrix";
 
+/**
+ * La función `printPrettyMatrix` recibe una matriz como entrada y la imprime en un formato
+ * visualmente agradable con columnas alineadas.
+ * @param {Matrix} matrix - La función `printPrettyMatrix` recibe una matriz como entrada y la imprime en un
+ * formato visualmente agradable donde cada columna está correctamente alineada. La matriz está representada como
+ * un arreglo bidimensional donde cada elemento es un arreglo que representa una fila de la matriz.
+ */
 export function printPrettyMatrix(matrix: Matrix): void {
     const colWidths: Array = [];
     for (let j = 0; j < matrix[0].length; j++) {
