@@ -1,17 +1,24 @@
 {
   "name": "@arva-dev/nodrix",
   "version": "1.0.0",
-  "description": "",
+  "description": "Librería para matrices",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",    
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "docs": "typedoc src/index.ts"
   },
-  "keywords": [],
+  "keywords": [
+    "matrix",
+    "math",
+    "node",
+    "typescript"
+  ],
   "author": "ARVA-DEV",
-  "license": "ISC",
+  "license": "MIT",
   "type": "commonjs",
   "devDependencies": {
+    "typedoc": "^0.28.4",
     "typescript": "^5.8.3"
   }
 }
