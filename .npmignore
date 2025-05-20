@@ -14,6 +14,7 @@ scripts/
 examples/
 coverage/
 docs/
+src/
 
 # No publicar lockfiles ni módulos
 node_modules/
