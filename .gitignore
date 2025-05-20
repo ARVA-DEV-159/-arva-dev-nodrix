@@ -1,0 +1,11 @@
+/node_modules
+dist
+
+# Archivos temporales
+*.log
+*.tmp
+*.swp
+*.swo
+
+*.tgz
+*.tsbuildinfo

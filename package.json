@@ -1,0 +1,17 @@
+{
+  "name": "@arva-dev/nodrix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",    
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "ARVA-DEV",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
